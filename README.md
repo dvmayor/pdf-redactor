@@ -1,6 +1,8 @@
 # PDF Redactor
 
-Redact sensitive information from PDFs before sharing them. Select any text — names, addresses, account numbers, anything — and black it out with one click. The text is permanently removed from the file, not just painted over.
+Redact sensitive information from PDFs before sharing them. Select any text, names, addresses, account numbers, anything, and black it out with one click. The text is permanently removed from the file, not just painted over.
+
+**[→ View live site](https://pdf-redactor-two.vercel.app/)**
 
 ---
 
