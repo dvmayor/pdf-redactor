@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Document body -->
+  <rect x="4" y="2" width="19" height="26" rx="2" fill="#e94560"/>
+  <!-- Folded corner (dog-ear) -->
+  <path d="M17 2 L23 8 L17 8 Z" fill="#b8304d"/>
+  <!-- Text line 1 -->
+  <rect x="7" y="11" width="11" height="2" rx="1" fill="white" opacity="0.55"/>
+  <!-- Redaction bar -->
+  <rect x="7" y="15" width="14" height="4" rx="1" fill="#111120"/>
+  <!-- Text line 3 -->
+  <rect x="7" y="21" width="8" height="2" rx="1" fill="white" opacity="0.55"/>
+</svg>
