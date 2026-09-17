@@ -22,6 +22,16 @@ def index():
     return FileResponse(str(BASE / "static" / "index.html"))
 
 
+@app.get("/robots.txt")
+def robots():
+    return FileResponse(str(BASE / "static" / "robots.txt"), media_type="text/plain")
+
+
+@app.get("/sitemap.xml")
+def sitemap():
+    return FileResponse(str(BASE / "static" / "sitemap.xml"), media_type="application/xml")
+
+
 def _search_text(page: fitz.Page, text: str) -> list:
     """Find all bounding boxes for text on the page, handling multi-line selections."""
     hits = page.search_for(text)
